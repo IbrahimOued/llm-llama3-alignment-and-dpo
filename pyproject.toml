@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm-alignment-and-dpo"
+version = "0.1.0"
+description = ""
+authors = ["Ibrahim Ouedraogo <ibrahim.ouedraogo@umontreal.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.44.0"
+datasets = "^2.20.0"
+evaluate = "^0.4.2"
+peft = "^0.12.0"
+trl = "^0.9.6"
+bitsandbytes = "^0.43.3"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.3"
+setuptools = "^72.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
